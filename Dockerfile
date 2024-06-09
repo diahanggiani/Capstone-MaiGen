@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose port yang digunakan oleh aplikasi
-EXPOSE 3000
+EXPOSE 8080
 
 # Secret Key JWT
 ENV JWT_SECRET='maigenapi2024'
