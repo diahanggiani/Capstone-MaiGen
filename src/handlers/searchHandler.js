@@ -1,3 +1,5 @@
+// fitur searcj tapi blm diintegrasikan dengan dataset tempat wisata
+
 const db = require('../firebase');
 
 const searchPlaces = async (req, res) => {
